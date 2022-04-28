@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;600&display=swap');
+
+
+
+
+.card {
+  margin-top: 25px;
+  width: 270px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  word-wrap:normal;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card img {
+  width: 140px;
+  height: 180px;
+ border-radius: 30px;
+  /* margin: 2px; */
+}
+
+.card .details {
+  margin: 5px;
+}
+
+.card .details h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.card .details h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+}
+
+.card .details p {
+  color: black;
+  margin: 0%;
+}

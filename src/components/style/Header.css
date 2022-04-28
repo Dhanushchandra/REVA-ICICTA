@@ -1,0 +1,54 @@
+.hero {
+    position: relative; 
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+/* .hero::before {    
+      content: "";
+    
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+
+
+} */
+
+.date h2{
+  color: #FF8000;
+}
+
+h1 {
+  margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  position: relative;
+  color: #ffffff;  
+  font-size: 43px;
+  line-height: 0.9;
+  text-align: left;
+  /* color: #444444; */
+    color: #0D0D0D;
+  /* color: orangered; */
+
+/* text-shadow: 1px 0px 1px #444444, 0px 1px 1px #444444, 3px 2px 1px #444444, 2px 3px 1px #444444, 4px 3px 1px #444444,  4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE */
+}
+
+@media only screen and (max-width: 762px)  {
+    h1{
+        font-size: 28px;
+        text-align: left;
+    }
+    .date-main{
+      text-align: center;
+    }
+}
