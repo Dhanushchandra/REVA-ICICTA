@@ -1,8 +1,7 @@
 import React from "react";
 import "./style/Papers.css";
 import Slide from "react-reveal/Fade";
-import Wobble from "react-reveal/Wobble";
-import HeadShake from 'react-reveal/HeadShake';
+
 import Fade from 'react-reveal/Fade';
 
 const Papers = () => {
@@ -20,7 +19,7 @@ const Papers = () => {
         </p>
       </div>
       <div className="row " >
-      <Fade bottom delay={500} >
+      <Fade bottom delay={200} >
           <div className="col-md-5 mycol">
             <ul>
               <li>Artificial Intelligence and Applications</li>
@@ -37,7 +36,7 @@ const Papers = () => {
             </ul>
           </div>
         </Fade>
-        <Fade bottom delay={500} >
+        <Fade bottom delay={200} >
           <div className="col-md-5 mycol">
             <ul>
               <li>Information Retrieval and Internet Application </li>

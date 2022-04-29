@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 const Cards = (props) => {
   return (
-    <Fade bottom delay={500} >
+    <Fade bottom delay={200} >
 
       <div className="card">
         <img src={props.src} alt="Image" />
