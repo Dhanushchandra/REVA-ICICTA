@@ -2,6 +2,7 @@ import React from "react";
 import "./style/Navbar.scss";
 import "./style/Navbar.css";
 import "./helper/NavHelper";
+import REVALOGO from "./assets/images/brand/revaunilogo.jpg"
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
         <div className="nav-container">
           <div className="brand">
             <a href="https://www.reva.edu.in/" target="_blank" rel="noreferrer">
-              Reva University
+              <img src={REVALOGO} alt="no img"/>
             </a>
           </div>
           <nav>

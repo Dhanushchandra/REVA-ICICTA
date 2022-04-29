@@ -12,3 +12,29 @@
     margin-top: 60px;
 }
 
+.date-table{
+    margin-top: 50px;
+    line-height: 2.5;
+    text-align:justify;
+    
+}
+
+
+
+.table-text{
+    word-wrap: break-word; 
+}
+
+@media only screen and (max-width: 762px)  
+{
+    .date-table{
+        margin-top: 50px;
+        line-height: 1.5;
+    }
+    .imp-date{
+        text-align: center;
+        margin: 0;
+    }
+}
+
+

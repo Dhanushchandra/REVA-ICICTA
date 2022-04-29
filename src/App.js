@@ -8,6 +8,7 @@ import Reg from "./components/Reg";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Date from "./components/Date";
+import { MainCard } from "./components/Cards";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Hero />
       <Date/>
       <Papers />
+      <MainCard/>
       <AllCards />
       <Reg />
       <Footer />

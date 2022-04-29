@@ -10,7 +10,7 @@ const Hero = () => {
         <Slide left>
           <div className="col-md-7 about slide-right">
             <span>
-              <h3>About the Conference</h3>
+              <h3>ABOUT THE CONFERENCE</h3>
               International Conference on Innovative Computing Technologies and
               Applications (ICICTA-22) will be held at REVA University on 2nd
               and 3rd June, 2022. The conference focuses on both theory and

@@ -9,7 +9,7 @@ function Reg() {
         <h1>REGISTRATION DETAILS</h1>
       </Slide>
       <div className="row reg">
-        <div className="col-md-4">
+        <div className="col-md-6">
           <table class="table">
             <thead>
               <tr>

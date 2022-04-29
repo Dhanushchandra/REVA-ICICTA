@@ -1,60 +1,63 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Cards from "./Cards";
 import Slide from "react-reveal/Fade";
 // import Jump from "react-reveal/Jump";
-import Photo from "./assets/images/logo-icon.png"
+import Photo from "./assets/images/brand/logo-icon.png"
+import Shyama from "./assets/images/photos/REV08629.jpg"
+import Dhanamjaya from "./assets/images/photos/REV08988.jpg"
+import Sunil from "./assets/images/photos/REV09013.jpg"
+import Senthil from "./assets/images/photos/REV09014.jpg"
+import Bhagavanalu from "./assets/images/photos/REV09005.jpg"
+import Divakar from "./assets/images/photos/REV09006.jpg"
 
 const AllCards = () => {
+
+
   return (
     <div className="container">
-      <Slide right>
-        <h1>OUR PATRONS</h1>
-      </Slide>
 
       <div className="row">
-        <Cards
-          src={Photo}
-          name="Dr. P. Shyama Raju"
-          desc="Ho'ble Chancellor"
-          role="CHIEF PATRON"
-        />
-        <Cards
-          src={Photo}
+       
+          <Cards 
+          src={Dhanamjaya}
           
           name="Dr.M.Dhanamjaya"
           desc="Vice-Chancellor"
           role="PATRON"
         />
-        <Cards
+       
+          <Cards
           src={Photo}
           
           name="Dr.N.Ramesh"
           desc="Registrar"
           role="PATRON"
         />
+       
+        
         <Cards
-          src={Photo}
+          src={Bhagavanalu}
           
           name="Dr.D.V.S.Bhagavanalu"
           desc="Dean IQAC"
           role="PATRON"
         />
          <Cards
-          src={Photo}
+          src={Divakar}
          
           name="Dr.B.P.Divakar"
           desc="Dean R&I"
           role="PATRON"
         />
          <Cards
-          src={Photo}
+          src={Sunil}
         
           name="Dr.Sunil Kumar S.Manvi"
           desc="Dean Engineering & Technology"
           role="PATRON"
         />
          <Cards
-          src={Photo}
+          src={Senthil}
          
           name="Dr.S.Senthil"
           desc="Professor & Director, School of CSA "

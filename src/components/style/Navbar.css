@@ -1,3 +1,17 @@
 .brand a{
     color: orangered;
 }
+
+.brand a img{
+    width: 40%;
+    margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 762px)  
+{
+    .brand a img{
+        width: 60%;
+        margin-top: 15px;
+
+    }
+}

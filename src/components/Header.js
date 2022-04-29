@@ -24,7 +24,7 @@ const Header = () => {
           </a> 
 
           <a  className="form" href="https://forms.gle/coagtj1GLGV4vEpk9" target="_blank" >
-            <button className="btn btn-success">Form</button>
+            <button className="btn btn-success">Register</button>
           </a>     
 
          

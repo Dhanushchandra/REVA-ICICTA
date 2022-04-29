@@ -12,13 +12,13 @@ const Date = () => {
             </HeadShake>
            
           
-           <table class="table">
+           <table class="table date-table">
 
   <tbody>
-    <tr>
+    <tr className="table-text">
  
     <Fade bottom cascade>
-      <td>  Full Paper Submission Deadline :</td>
+      <td > Full Paper Submission Deadline :</td>
       
       <td>25th April, 2022 10th May, 2022</td>
       </Fade>
