@@ -23,35 +23,35 @@ const AllCards = () => {
           
           name="Dr.M.Dhanamjaya"
           desc="Vice-Chancellor"
-          role="PATRONS"
+          role="PATRON"
         />
         <Cards
           src={Photo}
           
           name="Dr.N.Ramesh"
           desc="Registrar"
-          role="PATRONS"
+          role="PATRON"
         />
         <Cards
           src={Photo}
           
           name="Dr.D.V.S.Bhagavanalu"
           desc="Dean IQAC"
-          role="PATRONS"
+          role="PATRON"
         />
          <Cards
           src={Photo}
          
           name="Dr.B.P.Divakar"
           desc="Dean R&I"
-          role="PATRONS"
+          role="PATRON"
         />
          <Cards
           src={Photo}
         
           name="Dr.Sunil Kumar S.Manvi"
           desc="Dean Engineering & Technology"
-          role="PATRONS"
+          role="PATRON"
         />
          <Cards
           src={Photo}
