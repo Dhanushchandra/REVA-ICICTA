@@ -3,6 +3,7 @@ import "./style/Header.css";
 import Fade from "react-reveal/Fade";
 
 
+
 const Header = () => {
   return (
     <div class="hero row">
@@ -19,7 +20,11 @@ const Header = () => {
 
           <a download href="https://mega.nz/file/M2pCTIbb#bU_loDEaqZjSqaSE8Phn33NvBtPBE8u3B8l4DUYXWts">
             <button className="btn btn-info">download</button>
-          </a>
+          </a> 
+
+
+
+         
         </div>
       </Fade>
     </div>
