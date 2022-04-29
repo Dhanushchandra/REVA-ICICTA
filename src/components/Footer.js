@@ -11,15 +11,18 @@ const Footer = () => {
         </Slide>
         <div className="row contact">
           <div className="col-md-7">
-            Dr. S. Senthil, Convener (ICICTA-22) <br />
-            Professor & Director, School of CSA, REVA University, Bengaluru •
-            Ph: 88847 50100 <br />
+           <p>Dr. S. Senthil, Convener (ICICTA-22)</p>  <br />
+            Professor & Director, School of CSA, REVA University, Bengaluru.
+            <br/>Ph: 88847 50100 <br />
             Dr. Rajeev Ranjan,Associate Professor, School of CSA, REVA
-            University, Bengaluru • Ph: 9108898284 <br />
+            University, Bengaluru.
+            <br/>Ph: 91088 98284 <br />
             Dr. Hemanth K. S, Associate Professor, School of CSA, REVA
-            University, Bengaluru • Ph: 99862 57582 <br />
+            University, Bengaluru. 
+            <br/>Ph: 99862 57582 <br />
             Ms. Deepa B. G, Assistant Professor, School of CSA, REVA University,
-            Bengaluru • Ph: 81050 95047 <br />
+            Bengaluru.
+            <br/> Ph: 81050 95047 <br />
           </div>
           <div className="col-md-3 address">
             <h3>Address</h3>
@@ -49,7 +52,7 @@ const Footer = () => {
               <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                 <div class="copyright-text">
                   <p>
-                    Copyright &copy; 2024, All Right Reserved{" "}
+                    Copyright &copy; 2024, All Right Reserved by{" "}
                     <a href="">Dhanush</a>
                   </p>
                 </div>

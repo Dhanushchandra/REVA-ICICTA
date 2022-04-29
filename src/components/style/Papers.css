@@ -8,6 +8,10 @@
 
 }
 
+.mycol ul{
+    margin-top: 10px;
+}
+
 .row{
     justify-content: space-around;
 }

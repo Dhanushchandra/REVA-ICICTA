@@ -1,10 +1,12 @@
 import React from "react";
 import "./style/Cards.css";
-import Jump from "react-reveal/Jump";
+import Fade from 'react-reveal/Fade';
+
 
 const Cards = (props) => {
   return (
-    <Jump>
+    <Fade bottom delay={500} >
+
       <div className="card">
         <img src={props.src} alt="Image" />
         <div className="details">
@@ -13,7 +15,7 @@ const Cards = (props) => {
           <p>{props.role}</p>
         </div>
       </div>
-    </Jump>
+    </Fade>
   );
 };
 

@@ -6,6 +6,17 @@
     align-items: center;
     justify-content: center;
     background-color: white;
+    
+}
+
+
+.form{
+  margin-left: 20px;
+
+}
+.btn{
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /* .hero::before {    

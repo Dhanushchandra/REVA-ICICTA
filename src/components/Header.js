@@ -1,6 +1,7 @@
 import React from "react";
 import "./style/Header.css";
 import Fade from "react-reveal/Fade";
+import PDF from "./files/1.pdf"
 
 
 
@@ -16,13 +17,15 @@ const Header = () => {
       <Fade >
         <div className="col-md-3 date date-main">
           <h2>Date : 2nd and 3rd June, 2022</h2>
-          <h3>download brochure here!!</h3>
+          <h3>Download Brochure Here!!</h3>
 
-          <a download href="https://mega.nz/file/M2pCTIbb#bU_loDEaqZjSqaSE8Phn33NvBtPBE8u3B8l4DUYXWts">
-            <button className="btn btn-info">download</button>
+          <a download="ICICTA" href={PDF}>
+            <button className="btn btn-info">Download</button>
           </a> 
 
-
+          <a  className="form" href="https://forms.gle/coagtj1GLGV4vEpk9" >
+            <button className="btn btn-success">Form</button>
+          </a>     
 
          
         </div>
