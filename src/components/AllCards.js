@@ -1,14 +1,12 @@
-import React,{useEffect} from "react";
+import React from "react";
 import Cards from "./Cards";
-import Slide from "react-reveal/Fade";
-// import Jump from "react-reveal/Jump";
+
 import Photo from "./assets/images/brand/logo-icon.png"
-import Shyama from "./assets/images/photos/REV08629.jpg"
-import Dhanamjaya from "./assets/images/photos/REV08988.jpg"
-import Sunil from "./assets/images/photos/REV09013.jpg"
-import Senthil from "./assets/images/photos/REV09014.jpg"
-import Bhagavanalu from "./assets/images/photos/REV09005.jpg"
-import Divakar from "./assets/images/photos/REV09006.jpg"
+import Dhanamjaya from "./assets/images/photos/REV08988.jpeg"
+import Sunil from "./assets/images/photos/REV09013.jpeg"
+import Senthil from "./assets/images/photos/REV09014.jpeg"
+import Bhagavanalu from "./assets/images/photos/REV09005.jpeg"
+import Divakar from "./assets/images/photos/REV09006.jpeg"
 
 const AllCards = () => {
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./style/Cards.css";
 import Fade from 'react-reveal/Fade';
 import Slide from "react-reveal/Fade";
-import Shyama from "./assets/images/photos/REV08629.jpg"
+import Shyama from "./assets/images/photos/REV08629.jpeg"
 
 
 

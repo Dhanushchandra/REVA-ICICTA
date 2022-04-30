@@ -31,7 +31,7 @@ const Footer = () => {
             </span>
             <div>
                 <iframe
-             src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d124388.71080492617!2d77.50376710949905!3d13.02629584898062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bae19721a651fd3%3A0xdee225fe28f600f6!2sgoogle%20maps%20reva%20university!3m2!1d13.1163393!2d77.6352927!5e0!3m2!1sen!2sin!4v1651259729447!5m2!1sen!2sin"
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.7291172872892!2d77.63310401482352!3d13.116339290761024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae19721a651fd3%3A0xdee225fe28f600f6!2sREVA%20University!5e0!3m2!1sen!2sin!4v1651308232839!5m2!1sen!2sin"
               width="100%"
               height="150"
               style={{ border: "0", marginTop: "10px" }}
