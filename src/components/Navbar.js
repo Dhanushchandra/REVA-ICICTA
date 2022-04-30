@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style/Navbar.scss";
 import "./style/Navbar.css";
 import "./helper/NavHelper";
 import REVALOGO from "./assets/images/brand/revaunilogo.jpg"
 
+
+
+
+
+
 const Navbar = () => {
+
+
+
   return (
-    <div>
+   
+    <div> 
+      
+
+    
       <section className="navigation">
         <div className="nav-container">
           <div className="brand">
@@ -70,7 +82,11 @@ const Navbar = () => {
           </nav>
         </div>
       </section>
+    
     </div>
+   
+    
+    
   );
 };
 

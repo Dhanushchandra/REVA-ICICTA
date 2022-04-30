@@ -1,0 +1,31 @@
+.body-loading {
+    height: 100vh;
+    text-align: center;
+    padding: 100px 0 0 0;
+    color: #fff;
+    background: #0D0D0D;
+}
+
+.loading {
+    margin-top: 15%;
+    width: 130px;
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+            transform: rotate(0deg);
+    }
+    to {
+            transform: rotate(359deg);
+    }
+}
+
+@media only screen and (max-width: 762px)  
+{
+    .loading {
+        margin-top: 65%;
+        width: 73px;
+        animation: rotation 4s infinite linear;
+    }
+}
