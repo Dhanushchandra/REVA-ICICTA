@@ -50,8 +50,8 @@ const Footer = () => {
               <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                 <div class="copyright-text">
                   <p>
-                    Copyright &copy; 2024, All Right Reserved by{" "}
-                    <a href="">Dhanush</a>
+                     &copy; Designed and Developed by{" "},
+                    <a href="https://github.com/Dhanushchandra" target="_blank"> dhanush.info.in </a>
                   </p>
                 </div>
               </div>
