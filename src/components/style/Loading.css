@@ -1,16 +1,22 @@
 .body-loading {
-    height: 100vh;
+    height: 80vh;
     text-align: center;
-    padding: 100px 0 0 0;
+    /* padding: 100px 0 0 0; */
     color: #fff;
     background: #0D0D0D;
 }
 
 .loading {
+    /* position: absolute; */
     margin-top: 15%;
-    width: 130px;
-    animation: rotation 4s infinite linear;
+   
+    width: 150px;
+    animation: rotation 2s infinite linear;
 }
+
+
+
+
 
 @keyframes rotation {
     from {
@@ -26,6 +32,10 @@
     .loading {
         margin-top: 65%;
         width: 73px;
-        animation: rotation 4s infinite linear;
+        animation: rotation 2s infinite linear;
+    }
+    .revauni{
+        width: 50%;
+        margin-top: 20%;
     }
 }

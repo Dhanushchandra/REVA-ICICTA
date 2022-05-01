@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import RevaLogo from "./components/assets/images/brand/logo-icon.png";
+import RevaUni from "./components/assets/images/brand/revaunilogo.jpg";
 import "./components/style/Loading.css";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
@@ -46,17 +47,13 @@ function App() {
   useEffect(() => {
     setInterval(() => {
       setloading(false);
-    }, 1500);
+    }, 1000);
   }, []);
 
   return (
     <>
-      {/* {loading ? <LodingContent/> :
-    
-        <DisplayContent/>
-    
-    } */}
-      <DisplayContent />
+      {loading ? <LodingContent /> : <DisplayContent />}
+      {/* <DisplayContent /> */}
     </>
   );
 }
