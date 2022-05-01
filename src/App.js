@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import RevaLogo from "./components/assets/images/brand/logo-icon.png"
-import "./components/style/Loading.css"
+import RevaLogo from "./components/assets/images/brand/logo-icon.png";
+import "./components/style/Loading.css";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 import Papers from "./components/Papers";
@@ -12,57 +12,51 @@ import Navbar from "./components/Navbar";
 import Date from "./components/Date";
 import { MainCard } from "./components/Cards";
 
-
-
+import AllGcards from "./components/AllGcards";
 
 const DisplayContent = () => {
-
-  return(
- <div className="App"> 
+  return (
+    <div className="App">
       <Navbar />
       <Header />
       <Hero />
-      <Date/>
+      <AllGcards />
+      <Date />
       <Papers />
-      <MainCard/>
+      <MainCard />
       <AllCards />
       <Reg />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 const LodingContent = () => {
-
   return (
     <div className="body-loading">
-    <img className="loading" src={RevaLogo}></img>
+      <img className="loading" src={RevaLogo}></img>
     </div>
-  )
-//
-}
-
-
+  );
+  //
+};
 
 function App() {
+  const [loading, setloading] = useState(true);
 
-  const [loading,setloading] = useState(true)
-
-
-useEffect(()=>{
-  setInterval(()=>{
-    setloading(false)
-  },1500)
-},[])
+  useEffect(() => {
+    setInterval(() => {
+      setloading(false);
+    }, 1500);
+  }, []);
 
   return (
     <>
-    {/* {loading ? <LodingContent/> :
+      {/* {loading ? <LodingContent/> :
     
         <DisplayContent/>
     
     } */}
-     <DisplayContent/>
+      <DisplayContent />
     </>
   );
 }
