@@ -54,9 +54,13 @@ const Footer = () => {
                 <div class="copyright-text">
                   <p>
                     &copy; Designed and Developed by ,
-                    <a href="https://github.com/Dhanushchandra" target="_blank">
+                    <a
+                      href="https://github.com/Dhanushchandra"
+                      target="_blank"
+                      style={{ textDecoration: "none" }}
+                    >
                       {" "}
-                      dhanush.infojo.in{" "}
+                      Dhanush{" "}
                     </a>
                   </p>
                 </div>

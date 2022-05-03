@@ -2,28 +2,16 @@ import React, { useEffect } from "react";
 import "./style/Navbar.scss";
 import "./style/Navbar.css";
 import "./helper/NavHelper";
-import REVALOGO from "./assets/images/brand/revaunilogo.jpg"
-
-
-
-
-
+import REVALOGO from "./assets/images/brand/revaunilogo.jpg";
 
 const Navbar = () => {
-
-
-
   return (
-   
-    <div> 
-      
-
-    
+    <div>
       <section className="navigation">
         <div className="nav-container">
           <div className="brand">
             <a href="https://www.reva.edu.in/" target="_blank" rel="noreferrer">
-              <img src={REVALOGO} alt="no img"/>
+              <img src={REVALOGO} alt="REVA UNIVERSITY" />
             </a>
           </div>
           <nav>
@@ -82,11 +70,7 @@ const Navbar = () => {
           </nav>
         </div>
       </section>
-    
     </div>
-   
-    
-    
   );
 };
 
