@@ -15,19 +15,19 @@ const AllGcards = () => {
           src={TempPhoto}
           name="Guest1"
           title="title"
-          desc="lorem text here..."
+          desc="Guest1 details here..."
         />
         <Gcard
           src={TempPhoto}
           name="Guest2"
           title="title"
-          desc="lorem text here..."
+          desc="Guest2 details here.."
         />
         <Gcard
           src={TempPhoto}
           name="Guest3"
           title="title"
-          desc="lorem text here..."
+          desc="Guest3 details here.."
         />
       </div>
       <hr />
