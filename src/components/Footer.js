@@ -53,14 +53,14 @@ const Footer = () => {
               <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                 <div class="copyright-text">
                   <p>
-                    &copy; Designed and Developed by ,
+                    &copy; Designed and Developed by:
                     <a
                       href="https://github.com/Dhanushchandra"
                       target="_blank"
                       style={{ textDecoration: "none" }}
                     >
                       {" "}
-                      Dhanush{" "}
+                      <strong>Dhanush C</strong>
                     </a>
                   </p>
                 </div>
