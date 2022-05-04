@@ -3,6 +3,7 @@ import "./style/Navbar.scss";
 import "./style/Navbar.css";
 import "./helper/NavHelper";
 import REVALOGO from "./assets/images/brand/revaunilogo.jpg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -62,6 +63,11 @@ const Navbar = () => {
                     </a>
                   </li>
                 </ul>
+              </li>
+              <li>
+                <a href="#contact">
+                  <Link to="/organising-committee">Committee</Link>
+                </a>
               </li>
               <li>
                 <a href="#contact">Contact</a>

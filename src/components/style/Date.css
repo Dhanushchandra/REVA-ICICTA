@@ -19,6 +19,21 @@
     
 }
 
+.date-table tbody tr td:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: .8s;
+    
+}
+
+.orghead{
+    color: #FF8000;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
 
 
 .table-text{

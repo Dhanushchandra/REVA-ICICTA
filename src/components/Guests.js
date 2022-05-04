@@ -9,7 +9,7 @@ import Vijay from "./assets/images/photos/Gphotos/Vijay.png";
 import Ashutosh from "./assets/images/photos/Gphotos/Ashutosh.jpg";
 import Raja from "./assets/images/photos/Gphotos/Raja.jpg";
 
-const Orgs = () => {
+const Guests = () => {
   return (
     <div className="container">
       <h1>OUR GUESTS</h1>
@@ -121,7 +121,7 @@ const Orgs = () => {
               Associate Professor, Department of Computer Science and
               Engineering, JIS University, Kolkata
             </h4>
-            <br></br>
+
             <div className="title">
               <span className="titletalk">Title of the talk :</span>{" "}
               <span className="tttopic">
@@ -184,4 +184,4 @@ const Orgs = () => {
   );
 };
 
-export default Orgs;
+export default Guests;

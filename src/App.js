@@ -13,26 +13,37 @@ import Navbar from "./components/Navbar";
 import Date from "./components/Date";
 import { MainCard } from "./components/Cards";
 import Gtable from "./components/Gtable";
-import Orgs from "./components/Org";
+import Guests from "./components/Guests";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import AllGcards from "./components/AllGcards";
+import Orgs from "./components/Orgs";
 
-const DisplayContent = () => {
+const Home = () => {
   return (
-    <div className="App">
+    <>
       <Navbar />
       <Header />
       <Hero />
-      <Gtable />
+      {/* <Gtable /> */}
       {/* <AllGcards /> */}
       <Papers />
       <Date />
       <MainCard />
       <AllCards />
       <Reg />
-      <Orgs />
+      <Guests />
       <Footer />
+    </>
+  );
+};
+
+const DisplayContent = () => {
+  return (
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/organising-committee" element={<Orgs />} />
+      </Routes>
     </div>
   );
 };
