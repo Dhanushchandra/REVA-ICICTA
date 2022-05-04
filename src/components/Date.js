@@ -22,7 +22,7 @@ const Date = () => {
     <tr >
       <td >Full Paper Submission Deadline :</td>
       
-      <td><del>25th April, 2022</del> 10th May, 2022</td>
+      <td>10th May, 2022</td>
     
     </tr>
     </Zoom>

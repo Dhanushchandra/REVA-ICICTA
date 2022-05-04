@@ -16,7 +16,7 @@ const Header = () => {
       </div>
       <Fade >
         <div className="col-md-3 date date-main">
-          <h2>Date : 2nd and 3rd June, 2022</h2>
+          <h2>Date : 2<sup>nd</sup> and 3<sup>rd</sup> June, 2022</h2>
           <h3>Download Brochure Here!!</h3>
 
           <a download="ICICTA" href={PDF}>

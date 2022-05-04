@@ -5,8 +5,8 @@ import Photo from "./assets/images/brand/logo-icon.png"
 import Dhanamjaya from "./assets/images/photos/REV08988.jpeg"
 import Sunil from "./assets/images/photos/REV09013.jpeg"
 import Senthil from "./assets/images/photos/REV09014.jpeg"
-import Bhagavanalu from "./assets/images/photos/REV09005.jpeg"
-import Divakar from "./assets/images/photos/REV09006.jpeg"
+import Divakar from "./assets/images/photos/REV09005.jpeg"
+import Bhagavanalu from "./assets/images/photos/REV09006.jpeg"
 import Ramesh from "./assets/images/photos/REV09032.jpeg"
 
 const AllCards = () => {
