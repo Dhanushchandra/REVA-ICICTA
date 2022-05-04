@@ -121,3 +121,16 @@
   color: #1369ce;
   background-color: #f7f5ec;
 }
+
+.GDcolor{
+  color: orangered;
+  font-size: 27px;
+}
+
+
+@media only screen and (max-width: 762px)  {
+  .GDcolor{
+    color: orangered;
+    font-size: 17px;
+  }
+}

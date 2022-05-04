@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Date from "./components/Date";
 import { MainCard } from "./components/Cards";
+import Gtable from "./components/Gtable";
 
 import AllGcards from "./components/AllGcards";
 
@@ -21,9 +22,10 @@ const DisplayContent = () => {
       <Navbar />
       <Header />
       <Hero />
-      <AllGcards />
+      <Gtable/>
+      {/* <AllGcards />         */}
+      <Papers /> 
       <Date />
-      <Papers />
       <MainCard />
       <AllCards />
       <Reg />
