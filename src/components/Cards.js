@@ -14,7 +14,7 @@ export const MainCard = () => {
         <div className="col-md-4 ">
           <div className="card">
             <img src={Shyama} alt="Loading..." />
-            <div className="details">
+            <div className="details" >
               <h2>Dr. P. Shyama Raju</h2>
               <h3>Hon'ble Chancellor</h3>
               <p>CHIEF PATRON</p>

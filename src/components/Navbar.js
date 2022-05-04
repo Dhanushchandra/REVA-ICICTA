@@ -32,7 +32,7 @@ const Navbar = () => {
                 <a href="#registration">Registration</a>
               </li>
               <li>
-                <a href="#!">REVA Official</a>
+                <a href="#!">REVA Media</a>
                 <ul className="nav-dropdown">
                   <li>
                     <a
