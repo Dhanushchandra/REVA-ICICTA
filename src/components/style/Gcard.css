@@ -1,7 +1,7 @@
 .our-team {
   padding: 30px 0 40px;
-  width: 70%;
-  /* height: 70%; */
+  width: 40%;
+  height: 340px;
   margin: auto;
   margin-bottom: 30px;
   background-color: #f7f5ec;
@@ -9,16 +9,30 @@
   overflow: hidden;
   position: relative;
   border-radius: 15px;
+  margin-top: 41px;
+}
+
+.carousel-slider{
+  margin-top: 40px;
+  height: 440px;
 }
 
 .team-content .name{
     color: black;
 }
 
+.titletalk{
+  color: black;
+}
+
+.tttopic{
+  color: orangered
+}
+
 .our-team .picture {
   display: inline-block;
-  height: 130px;
-  width: 130px;
+  /* height: 130px; */
+  width: 104px;
   margin-bottom: 10px;
   z-index: 1;
   position: relative;
@@ -132,5 +146,12 @@
   .GDcolor{
     color: orangered;
     font-size: 17px;
+  }
+  .our-team{
+    width: 70%;
+    height: 360px;
+  }
+  .carousel-slider {
+    height: 470px;
   }
 }
