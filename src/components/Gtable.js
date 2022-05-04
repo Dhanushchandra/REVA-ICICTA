@@ -9,7 +9,7 @@ const Gtable = () => {
         <>
         <div className="imp-date container">
             <HeadShake>
-               <h1>DATES AND TIME</h1>  
+               <h1>SCHEDULE</h1>  
             </HeadShake>
            
           
