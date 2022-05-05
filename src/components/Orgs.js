@@ -1,17 +1,12 @@
 import React from "react";
 import "./style/Date.css";
-import HeadShake from "react-reveal/HeadShake";
 import Zoom from "react-reveal/Zoom";
 import Footer from "./Footer";
-import "./style/Footer.css";
 
 const Orgs = () => {
   return (
+    <div>
     <div className="imp-date container">
-      <HeadShake>
-        <h1>Heading...</h1>
-      </HeadShake>
-
       <table class="table date-table org-table">
         <tbody>
           <Zoom bottom>
@@ -244,12 +239,52 @@ const Orgs = () => {
           </Zoom>
         </tbody>
       </table>
-      <br />
-      <br />
-      <br />
-      <hr />
-      <Footer />
+     
+    
+     
     </div>
+     <footer class="footer-section">
+     <div class="copyright-area">
+       <div class="container">
+         <div class="row">
+           <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+             <div class="copyright-text">
+               <p>
+                 &copy; Designed and Developed by:
+                 <a
+                   href="https://github.com/Dhanushchandra"
+                   target="_blank"
+                   style={{ textDecoration: "none" }}
+                 >
+                   {" "}
+                   <strong>Dhanush C</strong>
+                 </a>
+               </p>
+             </div>
+           </div>
+           <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+             <div class="footer-menu">
+               <ul>
+                 <li>
+                   <a href="#">Home</a>
+                 </li>
+                 <li>
+                   <a href="#about">About</a>
+                 </li>
+                 <li>
+                   <a href="#registration">Registration</a>
+                 </li>
+                 <li>
+                   <a href="#contact">Contact</a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </footer>
+   </div>
   );
 };
 

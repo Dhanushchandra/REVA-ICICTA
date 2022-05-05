@@ -64,11 +64,15 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+              <Link to="/organising-committee">
               <li>
+  
                 <a href="#contact">
-                  <Link to="/organising-committee">Committee</Link>
+                  Committee
                 </a>
+               
               </li>
+              </Link>
               <li>
                 <a href="#contact">Contact</a>
               </li>
