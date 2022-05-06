@@ -13,7 +13,7 @@ const Guests = () => {
   return (
     <div className="container">
       <h1>OUR GUESTS</h1>
-      <Carousel>
+      <Carousel autoPlay infiniteLoop preventMovementUntilSwipeScrollTolerance>
         <div className="our-team">
           <div className="picture">
             <img className="img-fluid" src={Rajeev} />
@@ -22,10 +22,10 @@ const Guests = () => {
             <h3 className="name">Dr. Rajeev Shorey</h3>
             <h4 className="title">
               {" "}
-              Chief Executive Officer, University of Queensland<br></br> IIT Delhi
-              Academy of Research (UQIDAR), New Delhi
+              Chief Executive Officer, University of Queensland<br></br> IIT
+              Delhi Academy of Research (UQIDAR), New Delhi
             </h4>
-           
+
             <div className="title">
               <span className="titletalk">--Title of the talk--</span>{" "}
               <span className="tttopic">
