@@ -37,29 +37,29 @@ const AllCards = () => {
         <Cards
           src={Bhagavanalu}
           
-          name="Dr.D.V.S.Bhagavanalu"
-          desc="Dean IQAC"
+          name="Dr.D.V.S.Bhagavanulu"
+          desc="Dean, IQAC"
           role="PATRON"
         />
          <Cards
           src={Divakar}
          
           name="Dr.B.P.Divakar"
-          desc="Dean R&I"
+          desc="Dean, R&I"
           role="PATRON"
         />
          <Cards
           src={Sunil}
         
           name="Dr.Sunil Kumar S.Manvi"
-          desc="Dean Engineering & Technology"
+          desc="Dean, Engineering & Technology"
           role="PATRON"
         />
          <Cards
           src={Senthil}
          
           name="Dr.S.Senthil"
-          desc="Professor & Director, School of CSA "
+          desc="Professor & Director School of CSA"
           role="CONVENER"
         />
       </div>

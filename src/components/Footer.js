@@ -61,7 +61,9 @@ const Footer = () => {
                     >
                       {" "}
                       <strong>Dhanush C</strong>
+                     
                     </a>
+                    {" "},CSA, REVA UNIVERSITY
                   </p>
                 </div>
               </div>

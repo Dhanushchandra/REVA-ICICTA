@@ -22,12 +22,12 @@ const Guests = () => {
             <h3 className="name">Dr. Rajeev Shorey</h3>
             <h4 className="title">
               {" "}
-              Chief Executive Officer, University of Queensland – IIT Delhi
+              Chief Executive Officer, University of Queensland<br></br> IIT Delhi
               Academy of Research (UQIDAR), New Delhi
             </h4>
-            <br></br>
+           
             <div className="title">
-              <span className="titletalk">Title of the talk :</span>{" "}
+              <span className="titletalk">--Title of the talk--</span>{" "}
               <span className="tttopic">
                 Recent Investigations in Machine Learning and Edge Computing
               </span>
@@ -51,7 +51,7 @@ const Guests = () => {
             </h4>
             <br></br>
             <div className="title">
-              <span className="titletalk">Title of the talk:</span>{" "}
+              <span className="titletalk">--Title of the talk--</span>{" "}
               <span className="tttopic">
                 Future of artificial intelligence.
               </span>
@@ -71,11 +71,11 @@ const Guests = () => {
             <h4 className="title">
               {" "}
               Associate Vice-President and Principal Research Scientist<br></br>{" "}
-              Infosys Technology Limited Bangalore
+              Infosys Technology Limited, Bangalore
             </h4>
             <br></br>
             <div className="title">
-              <span className="titletalk">Title of the talk :</span>{" "}
+              <span className="titletalk">--Title of the talk--</span>{" "}
               <span className="tttopic">
                 "Strategies for Innovation and Creativity"
               </span>
@@ -99,7 +99,7 @@ const Guests = () => {
             </h4>
             <br></br>
             <div className="title">
-              <span className="titletalk">Title of the talk :</span>{" "}
+              <span className="titletalk">--Title of the talk--</span>{" "}
               <span className="tttopic">
                 Latest Trends in Agile Development
               </span>
@@ -123,7 +123,7 @@ const Guests = () => {
             </h4>
 
             <div className="title">
-              <span className="titletalk">Title of the talk :</span>{" "}
+              <span className="titletalk">--Title of the talk--</span>{" "}
               <span className="tttopic">
                 Deep Learning in Medical Imaging: Challenges and
                 State-of-the-Art Solutions
@@ -140,7 +140,7 @@ const Guests = () => {
             <img className="img-fluid" src={Mayukh} />
           </div>
           <div className="team-content">
-            <h3 className="name">Mr. Mayukh Das</h3>
+            <h3 className="name">Dr. Mayukh Das</h3>
             <h4 className="title">
               {" "}
               Senior Research Scientist<br></br> Microsoft Research India
@@ -148,8 +148,8 @@ const Guests = () => {
             </h4>
             <br></br>
             <div className="title">
-              <span className="titletalk">Title of the talk :</span>{" "}
-              <span className="tttopic">-----------------------</span>
+              {/* <span className="titletalk">Title of the talk :</span>{" "}
+              <span className="tttopic">-----------------------</span> */}
             </div>
           </div>
           <div className="social">
@@ -170,7 +170,7 @@ const Guests = () => {
             </h4>
             <br></br>
             <div className="title">
-              <span className="titletalk">Title of the talk :</span>{" "}
+              <span className="titletalk">--Title of the talk--</span>{" "}
               <span className="tttopic">Cloud Security</span>
             </div>
           </div>
