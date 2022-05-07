@@ -8,7 +8,7 @@ const Papers = () => {
   return (
     <div className="container">
       <Slide left>
-        <h1 className="text">CALL OF PAPERS</h1>
+        <h1 className="text">CALL FOR PAPERS</h1>
       </Slide>
 
       <div className="col-md-12">
