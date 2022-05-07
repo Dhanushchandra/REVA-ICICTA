@@ -112,7 +112,7 @@ const Guests = () => {
 
         <div className="our-team">
           <div className="picture">
-            <img className="img-fluid" src={Dey} />
+            <img className="img-fluid" style={{height: "90px"}} src={Dey} />
           </div>
           <div className="team-content">
             <h3 className="name">Dr. Nilanjan Dey</h3>
