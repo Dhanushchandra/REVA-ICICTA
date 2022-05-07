@@ -14,8 +14,9 @@ const Header = () => {
           Applications (ICICTA - 2022)
         </h1>
       </div>
-      <Fade >
+     
         <div className="col-md-3 date date-main">
+        <Fade >
           <h2>Date :<br></br> 2<sup>nd</sup> and 3<sup>rd</sup> June, 2022</h2>
           <h3>Download Brochure Here!!</h3>
 
@@ -27,9 +28,9 @@ const Header = () => {
             <button className="btn btn-success">Register</button>
           </a>     
 
-         
+          </Fade>
         </div>
-      </Fade>
+     
     </div>
   );
 };
