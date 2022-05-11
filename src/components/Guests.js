@@ -148,8 +148,8 @@ const Guests = () => {
             </h4>
             <br></br>
             <div className="title">
-              {/* <span className="titletalk">Title of the talk :</span>{" "}
-              <span className="tttopic">-----------------------</span> */}
+              <span className="titletalk">Title of the talk :</span>{" "}
+              <span className="tttopic">Efficiency and Reliability via Artificial Intelligence</span>
             </div>
           </div>
           <div className="social">
